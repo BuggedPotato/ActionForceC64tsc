@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Action Force</title>
+</head>
+<body>
+    <div id="display-options">
+        <label for="checkbox-crt">CRT</label>
+        <input id="checkbox-crt" type="checkbox" />
+    </div>
+
+    <canvas id="background" width="12800" height="680" z-index="0"></canvas>
+    <canvas id="game" width="12800" height="680" z-index="1"></canvas>
+    <canvas id="overlay" width="12800" height="680" z-index="998"></canvas>
+    <canvas id="player-gui-bg" width="12800" height="680"></canvas>
+    <canvas id="player-gui" width="12800" height="680"></canvas>
+    <canvas id="crt" width="12800" height="680" z-index="999"></canvas>
+    <!-- <canvas id="colours" width="50" height="1000" z-index="1000"></canvas> -->
+    <script src="./dist/main.bundle.js"></script>
+</body>
+</html>
